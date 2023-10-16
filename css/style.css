@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  color: white;
+  padding: 10px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  margin: 20px;
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 900px) {
+  header {
+    flex-direction: column;
+    height: 100px;
+  }
+}
+.loading-page {
+  background-image: url("../img/India-Cricket.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loading-page > .content-items {
+  display: flex;
+  color: aliceblue;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  padding: 25px;
+  background: rgba(0, 115, 255, 0.333);
+}
+.loading-page > .content-items > p {
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  text-align: center;
+}
+.loading-page > .content-items > button {
+  background-color: rgba(196, 38, 38, 0.773);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  padding: 20px;
+  color: aliceblue;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px rgba(248, 246, 246, 1);
+}
