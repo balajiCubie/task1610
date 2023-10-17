@@ -113,31 +113,40 @@ div > a {
 
   border-radius: 25px;
 }
-#imageGroup-2 {
-  /* background-color: aqua; */
-
-  display: flex;
+#indianTeam-2 > h1,
+p {
+  text-align: center;
+  margin: 50px;
 }
-#imageGroup-2 {
-  justify-content: center;
-}
-#imageGroup-2 > div > img {
+#indianTeam-2 > img {
   margin: 20px;
   border: solid;
   border-color: aqua;
 
   border-radius: 25px;
 }
-#imageGroup-2 > div > p {
-  margin: 0px;
-  /* display: inline-block; */
+#personCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   /* background-color: aqua; */
 }
-
-#imageGroup-2 > div > button {
-  margin: 0px;
-  /* display: inline-block; */
-  /* background-color: aqua; */
+#personCards > div > img {
+  border-radius: 25px;
+  margin: 20px;
+  border: solid;
+  border-color: aqua;
+}
+#personCards > div > p {
+  border-radius: 25px;
+  margin: 5px;
+  /* border: solid; */
+  /* border-color: aqua; */
+}
+#personCards > div > button {
+  /* make center */
+  margin: 50px;
   margin-top: 10px;
   background-color: rgba(196, 38, 38, 0.773);
   outline: none;
