@@ -63,3 +63,57 @@ div > a {
   align-items: center;
   box-shadow: 0px 0px 20px 0px rgba(248, 246, 246, 1);
 }
+
+#worldCup-1 {
+  text-align: center;
+  margin: 30px;
+}
+#worldCup-1 > h1 {
+  font-size: 45px;
+  color: rgb(11, 7, 40);
+  margin-top: 30px;
+}
+
+#worldCup-1 > p {
+  margin-top: 30px;
+}
+#worldCup-1 > button {
+  margin-top: 10px;
+  background-color: rgba(196, 38, 38, 0.773);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  padding: 20px;
+  color: aliceblue;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px rgba(248, 246, 246, 1);
+}
+#indianTeam-1 {
+  text-align: center;
+  margin-top: 50px;
+}
+#indianTeam-1 > h1 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(11, 7, 40);
+}
+
+#indianTeam-1 > p {
+  text-align: center;
+  margin: 30px;
+}
+#imageGroup-1 {
+  text-align: center;
+}
+#imageGroup-1 > img {
+  margin: 20px;
+  border: solid;
+  border-color: aqua;
+
+  border-radius: 25px;
+}
+
+footer {
+  margin: 1000px;
+}
