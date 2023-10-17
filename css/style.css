@@ -119,6 +119,7 @@ div > a {
   display: flex;
 }
 #imageGroup-2 {
+  justify-content: center;
 }
 #imageGroup-2 > div > img {
   margin: 20px;
